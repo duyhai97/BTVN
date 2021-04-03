@@ -17,7 +17,7 @@ public class Bai5 {
             else if (delta == 0) System.out.println("phuong trinh co nghiem kep x1=x2=" + -b / 2 * a);
             else {
                 System.out.println("phuong trinh co 2 nghiem phan biet x1=" + (-b + Math.sqrt(delta)) / 2 * a);
-                System.out.println("x2= " + (-b + Math.sqrt(delta)) / 2 * a);
+                System.out.println("x2= " + (-b - Math.sqrt(delta)) / 2 * a);
             }
         }
     }

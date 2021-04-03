@@ -11,7 +11,7 @@ public class Bai4 {
                 if(a%i==0) count ++;
             }
         }
-        if(count > 1) System.out.println(a + " khong phai 3SNT");
+        if(count > 1) System.out.println(a + " khong phai SNT");
         else System.out.println(a + " la SNT");
     }
 }
